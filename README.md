@@ -1,6 +1,6 @@
-#### SSAA: Static Shock and Awe
+#### CURRENCY CONVERTER
 
-_by Jeremy Banka_
+_by Marney Mallory_
 
 ## Technologies Used
 
@@ -14,15 +14,13 @@ _by Jeremy Banka_
 
 ## Description
 
-This is a template repo for SHOCKING and AWESOME static web development.
-
 Includes webpack, jest, and eslint preconfigured. Just get to work!
 
 ## Setup/Installation Requirements
 
 #### First Things First
 
-- Clone this repo: `$ git clone https://github.com/jeremybanka/ssaa`
+- Clone this repo: `$ git clone https://github.com/marneymallory/4-23`
 - Get things installed: `$ npm i`
 - Get things built: `$ npm run start`
 - This should prompt your browser to open the project on 8080. It's actually pointed at the dist folder, and will update live.
@@ -52,4 +50,4 @@ This software is licensed under GPL 3.0.
 
 ## Contact Information
 
-hello at jeremybanka dot com
+marney.mallory@gmail.com

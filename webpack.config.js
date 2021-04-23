@@ -12,7 +12,7 @@ module.exports = {
     new DotenvWebpackPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "TEMPLATE_TITLE",
+      title: "CURRENCE-CONVERTER",
       template: "src/index.html", // template file
       filename: "index.html", // output file
       inject: true,
