@@ -5,14 +5,15 @@ import Convert from "./core"
 $(document).ready(() => {
   $("#search-submit-btn").click(event => {
     event.preventDefault()
-    const printContent = response => {
-      // const { result, hdurl } = response
-      // $("main").text(result)
-      // $("#bg").attr("src", hdurl)
+    const currency = response => {
+      const { result, hdurl } = response
+      $("main").text(result)
+      $("#bg").attr("src", hdurl)
     }
-    console.log(response.json)
     $(() => {
-      Convert.currencyConvert().then(response => printContent(response))
+      Convert.currencyConvert(currency, amount).then(response =>
+        printContent(response)
+      )
     })
   })
 })
