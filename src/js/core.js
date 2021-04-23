@@ -13,7 +13,7 @@ export default class Convert {
           console.log(response)
           throw Error(response.statusText)
         }
-        response.json().then(body => {
+        return response.json().then(body => {
           const rate = body.conversion_rate
           return rate * amount
         })
