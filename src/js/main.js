@@ -1,18 +1,18 @@
 import "../styles/main.scss"
 import $ from "jquery"
-import Currency from "./core"
+import Convert from "./core"
 
-$(document).ready(function() {
-  $('#search-submit-btn').click(function(event) {
-    event.preventDefault();
-const printContent = response => {
-  // const { result, hdurl } = response
-  // $("main").text(result)
-  // $("#bg").attr("src", hdurl)
-}
-  
-$(() => {
-  Currency.convert().then(response => printContent(response))
-  }
-)}
-  )}
+$(document).ready(() => {
+  $("#search-submit-btn").click(event => {
+    event.preventDefault()
+    const printContent = response => {
+      // const { result, hdurl } = response
+      // $("main").text(result)
+      // $("#bg").attr("src", hdurl)
+    }
+    console.log(response.json)
+    $(() => {
+      Convert.currencyConvert().then(response => printContent(response))
+    })
+  })
+})

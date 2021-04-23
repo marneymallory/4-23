@@ -6,6 +6,7 @@ _by Marney Mallory_
 
 - 📄 HTML5
 - 💅 SASS ➡️ CSS3
+- Bootstrap
 - ▶️ ES6 🛠 Airbnb ESLint (thanks to VS Code ext. ESLint by Dirk Baeumer)
 - ❓ jest 26.6.3
 - 📦 Webpack 5 for bundling my js modules.
@@ -14,7 +15,7 @@ _by Marney Mallory_
 
 ## Description
 
-Includes webpack, jest, and eslint preconfigured. Just get to work!
+Includes webpack, jest, and eslint preconfigured.
 
 ## Setup/Installation Requirements
 
