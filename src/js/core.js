@@ -1,10 +1,13 @@
 /* eslint-disable prefer-destructuring */
 const API_KEY = process.env.API_KEY
+
 /* eslint-enable prefer-destructuring */
 
 export default class Currency {
-  static dollars() {
-    return fetch(`https://v6.exchangerate-api.com/v6/${API_KEY}/latest/USD`)
+  static convert(currencyOne, currencyTwo) {
+    return fetch(
+      `https://v6.exchangerate-api.com/v6/${API_KEY}/pair/${currencyOne}/${currencyTwo}`
+    )
       .then(response => {
         if (!response.ok) {
           throw Error(response.statusText)

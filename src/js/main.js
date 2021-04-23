@@ -6,12 +6,13 @@ $(document).ready(function() {
   $('#search-submit-btn').click(function(event) {
     event.preventDefault();
 const printContent = response => {
-  const { explanation, hdurl } = response
-  $("main").text(explanation)
-  $("#bg").attr("src", hdurl)
+  // const { result, hdurl } = response
+  // $("main").text(result)
+  // $("#bg").attr("src", hdurl)
 }
   
 $(() => {
-  Currency.dollars().then(response => printContent(response))
+  Currency.convert().then(response => printContent(response))
   }
-)};
+)}
+  )}

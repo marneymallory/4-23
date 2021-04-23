@@ -5,10 +5,30 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-    <header>
-      <h1></h1>
-    </header>
-    <main></main>
-    <footer></footer>
+    <div class="container">
+      <h1>Currency Converter</h1>
+
+      <h2>Convert your currency to USD here!</h2>
+      <img
+        src="4-23-img/dolla-bills.jpeg"
+        width="400"
+        height="300"
+        alt="dolla-bills"
+      />
+      <form action="convert">
+        <label for="">USD to </label>
+        <select name="currency" id="currency" class="form-control">
+          <option disabled hidden selected></option>
+          <option value="1">European Euro (EUR)</option>
+          <option value="2">Japanese Yen (JPY)</option>
+          <option value="3">Great British Pound (GBP)</option>
+          <option value="4">Australian Dollar (AUD)</option>
+          <option value="5">Swiss Franc (CHF)</option>
+        </select>
+        <button type="button" class="btn btn-success btn-block">Convert</button>
+      </form>
+
+      <div id="convertedCurrencyOutput"></div>
+    </div>
   </body>
 </html>
