@@ -4,46 +4,47 @@ _by Marney Mallory_
 
 ## Technologies Used
 
-- 📄 HTML5
-- 💅 SASS ➡️ CSS3
+- HTML5
+- SASS ➡️ CSS3
 - Bootstrap
-- ▶️ ES6 🛠 Airbnb ESLint (thanks to VS Code ext. ESLint by Dirk Baeumer)
-- ❓ jest 26.6.3
-- 📦 Webpack 5 for bundling my js modules.
-- 👨🏻‍🎨 Adobe Illustrator (comps/planning)
-- 🅰️ Fonts and Icons by me using Georg Seifert's _superb_ 💚[Glyphs.app](https://glyphsapp.com)💚
+- ESLint
+- Jest 26.6.3
+- Webpack 5
+- VS Code
+- Postman
 
 ## Description
 
-Includes webpack, jest, and eslint preconfigured.
+This app is a currency converter designed to showcase the use of API calls and handling asynchronous code. The user will be able to convert Euros, Yen, Pounds, Swiss Francs and Australian Dollars into US Dollars.
 
 ## Setup/Installation Requirements
 
-#### First Things First
-
 - Clone this repo: `$ git clone https://github.com/marneymallory/4-23`
-- Get things installed: `$ npm i`
+- Get things installed: `$ npm install`
 - Get things built: `$ npm run start`
-- This should prompt your browser to open the project on 8080. It's actually pointed at the dist folder, and will update live.
+- This should prompt your browser to open the project on localhost8080.
 
-#### ESLint/Prettier Tooling
+### Open by downloading:
 
-- Use VS Code.
-- Install VS Code extension "ESLint" by Dirk Baeumer.
-- Install VS Code extension "Prettier"
-- Ensure that your VS Code settings.json has the following properties set:
-  ```
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
-  ```
-- Now, my meticulously selected formatting preferences will be applied to files in this repo any time you hit save!
+Download this repository onto your computer by clicking the 'code' button. Open the project folder. Double click 'index.html' to open it in your web browser
+
+### Open via Bash/GitBash:
+
+Clone this repository onto your computer: git clone `https://github.com/marneymallory/4-23.git` Navigate into the '4-23' directory, and open in Visual Studio Code or preferred text editor code . Open 'index.html' in Chrome or preferred browser To see my live website go to `https://marneymallory.github.io/4-23/)`
+
+## API Setup Instructions
+
+- Navigate to ExchangeRate-API
+- Input your email address and select the "Get Free Key" button.
+- Create a password and select "Accept Terms & Create API Key!"
+- Receive API key
+- Create a .env file in your root directory.
+- Add your API key to the .env file using the following format: API_KEY=YourAPIKey
+- Add .env to your .gitignore file.
 
 ## Known Bugs
 
-- none identified
+- No Known Bugs
 
 ## License
 
@@ -52,3 +53,5 @@ This software is licensed under GPL 3.0.
 ## Contact Information
 
 marney.mallory@gmail.com
+
+Copyright (c) 2021 Marney Mallory
