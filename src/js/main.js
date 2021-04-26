@@ -1,4 +1,3 @@
-// import "../styles/main.scss"
 import $ from "jquery";
 import Convert from "./core";
 
@@ -18,14 +17,3 @@ $(document).ready(() => {
     });
   });
 });
-
-//   if (response["error-type"] === "unsupported-code") {
-//     responseHTML = `The currency in question does not exist. Please try again.`;
-//     return $("#currency-type-error").html(responseHTML);
-//   } else if (response["conversion_result"]) {
-//     responseHTML = `<p>${currency} ${response["base_code"]} converted to ${response["target_code"]} is ${response["conversion_result"]}</p>`;
-//   } else {
-//     responseHTML = `There was an error: ${response["error-type"]}`;
-//   }
-//   return $("#output").html(responseHTML);
-// }
