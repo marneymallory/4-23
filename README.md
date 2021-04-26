@@ -39,7 +39,7 @@ Clone this repository onto your computer: git clone `https://github.com/marneyma
 
 ## Known Bugs
 
-- No Known Bugs
+- Couldn't get styles to work
 
 ## License
 
