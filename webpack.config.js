@@ -1,6 +1,6 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin")
-const { CleanWebpackPlugin } = require("clean-webpack-plugin")
-const DotenvWebpackPlugin = require("dotenv-webpack")
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const DotenvWebpackPlugin = require("dotenv-webpack");
 
 module.exports = {
   entry: "./src/js/main.js",
@@ -39,9 +39,8 @@ module.exports = {
     headers: {
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
-      "Access-Control-Allow-Headers":
-        "X-Requested-With, content-type, Authorization",
-      "https": true,
+      "Access-Control-Allow-Headers": "X-Requested-With, content-type, Authorization",
+      https: true,
     },
   },
-}
+};

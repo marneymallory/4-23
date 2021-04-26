@@ -6,7 +6,6 @@ _by Marney Mallory_
 
 - HTML5
 - SASS ➡️ CSS3
-- Bootstrap
 - ESLint
 - Jest 26.6.3
 - Webpack 5
@@ -23,10 +22,6 @@ This app is a currency converter designed to showcase the use of API calls and h
 - Get things installed: `$ npm install`
 - Get things built: `$ npm run start`
 - This should prompt your browser to open the project on localhost8080.
-
-### Open by downloading:
-
-Download this repository onto your computer by clicking the 'code' button. Open the project folder. Double click 'index.html' to open it in your web browser
 
 ### Open via Bash/GitBash:
 

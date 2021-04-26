@@ -22,7 +22,7 @@ module.exports = {
       },
     ],
     "consistent-return": "off",
-    "curly": ["error", "multi-line", "consistent"],
+    curly: ["error", "multi-line", "consistent"],
     "function-paren-newline": "off",
     "implicit-arrow-linebreak": "off",
     "jsx-quotes": ["error", "prefer-single"],
@@ -42,7 +42,7 @@ module.exports = {
     "max-len": [
       "error",
       {
-        code: 80,
+        code: 90,
         ignoreRegExpLiterals: true,
       },
     ],
@@ -107,9 +107,8 @@ module.exports = {
       },
     ],
     "prettier/prettier": ["error"],
-    "quotes": ["error", "double"],
+    quotes: ["error", "double"],
     "quote-props": ["error", "consistent", { unnecessary: false }],
-    "semi": ["error", "never"],
-    "semi-style": ["error", "first"],
+    semi: ["always"],
   },
-}
+};
